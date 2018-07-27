@@ -90,11 +90,10 @@ int main () {
 double func(double c)
 {
     double m = 68.1;
-    double val = exp(1);
     double n1 = GRAVEDAD*m/c;
     double n2 = -(c/68.1)*10;
     // Funcion tomada como referencia
-    return (n1*(1-pow(val,n2))-40);
+    return (n1*(1-pow(M_E,n2))-40);
 }
 
 
